@@ -18,12 +18,8 @@
 					<p class="lead">
 						Esse projeto foi criado para uma entrevista de vaga de estágio.<br>
 						Foi criado utilizando PHP, MVC e Bootstrap. Você pode ver o código fonte dele em
-						<a href="https://github.com/seu_usuario/seu_repositorio"
-							target="_blank">https://github.com/pricilaoliveirarocha/
-						</a>
-						ou em produção em
-						<a href="https://">
-							link prod
+						<a href="https://github.com/pricilaoliveirarocha/ProductManagement"
+							target="_blank">https://github.com/pricilaoliveirarocha/ProductManagement</a>.<br>
 						</a>
 						<br>Para acessar o sistema, clique no botão abaixo.<br>	
 						<button class="btn btn-primary mt-3" onclick="window.location.href='/produto'">Acessar</button>
