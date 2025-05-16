@@ -40,21 +40,14 @@ routes.php<br>
    ```bash
     php -S localhost:8000
    ```
-   Inicie o seu banco mysql e faça login:
+   Abra o localhost:
    ```bash
-     mysql -u root -p
+     http://localhost:8000/
    ```
-   Criei o banco com mysql diretamente no terminal do Linux, para windows talvez sejam comandos diferentes:
-   ```bash
-     CREATE DATABASE sistema_produtos;
-   ```
-    Importe a estrutura sql
-    Por exemplo:
-    ```bash
-      mysql -u root -p sistema_produtos < caminho/para/database.sql
-    ```
+   ### o Acesso é feito com o email 'admin@admin.com' e a senha 'admin'.
   
     ## 🧪 Teste Rápido
     Acesse */login* e use um usuário já cadastrado no banco.<br>
     Acesse */produto/listar* para visualizar a tabela.
+   =)
 
