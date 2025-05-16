@@ -22,10 +22,4 @@ mysql> CREATE TABLE usuarios (
 
 mysql> insert into usuarios(nome, email, senha) values ('admin','admin@admin.com', 'admin');
 
-mysql> create table produtos(id int auto_increment primary key,
-	-> nome_produto varchar(100) not null, 
-	-> valor_produto decimal(10,2) not null, 
-	-> data_cadastro timestamp not null default current_timestamp,
-	-> data_atualizacao timestamp not null default current_timestamp on update current_timestamp);
-
 
