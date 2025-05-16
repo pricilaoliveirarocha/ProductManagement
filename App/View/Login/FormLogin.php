@@ -19,7 +19,7 @@
 
 			<div class="mb-3">
 				<label for="email" class="form-label">E-mail:</label>
-				<input type="email" value="<?= $model->email ?>" class="form-control" name="email" id="email">
+				<input type="email" value="<?= $model->email ?? null ?>" class="form-control" name="email" id="email">
 			</div>
 			<div class="mb-3">
 				<label for="senha" class="form-label">Senha:</label>

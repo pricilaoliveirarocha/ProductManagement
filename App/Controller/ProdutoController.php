@@ -8,6 +8,7 @@ class ProdutoController extends Controller
 {
 public static function cadastro(): void
 {
+	parent::isProtected();
 	$model = new Produto();
 
 	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -53,6 +54,7 @@ public static function cadastro(): void
 
 	public static function listar(): void
 	{
+		parent::isProtected();
 		$model = new Produto();
 
 		$buscarNome = $_GET['buscarNome'] ?? null;

@@ -22,7 +22,7 @@ abstract class Model
 		if (!empty($this->errors)) {
 			$output .= "<ul class='mb-0'>";
 			foreach ($this->errors as $error) {
-				$output .= "<li>" . htmlspecialchars($error) . "</li>";
+				$output .= "<li>$error</li>";
 			}
 			$output .= "</ul>";
 		}
