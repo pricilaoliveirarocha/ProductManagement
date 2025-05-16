@@ -1,0 +1,30 @@
+.form-control:focus, #toggleSenha:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.form-control, #toggleSenha {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+#alertaErro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+#btnFecharAlerta {
+	color:white;
+	font-size: 9px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+#btnFecharAlerta:focus {
+	outline: none;
+}
